@@ -1,9 +1,8 @@
-import math
 num = int(input("Enter any number: "))
 result = 0
 num_list = []
 
-for i in range(num):
+for i in range(num+1):
     result = result + i
     num_list.append(i)
 
