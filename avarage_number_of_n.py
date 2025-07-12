@@ -7,7 +7,7 @@ for i in range(num+1):
     num_list.append(i)
 
 size = len(num_list)
-avarage = result / size
+average = result / size
 
-print(avarage)
-print(result)
+print(f"Sum of the 1 to {num}: {result}")
+print(f"Average of these numbers is: {average}")
